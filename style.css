@@ -717,8 +717,7 @@ body{scroll-behavior: smooth;
    
         .section-8{ background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
                     font-size: 12px;
-                    padding: 100px 0;
-                    margin-bottom: 200px;
+                    padding: 100px 0;                  
 
         }
 
@@ -920,6 +919,8 @@ body{scroll-behavior: smooth;
 
    footer{  font-family: "Open Sans", sans-serif;
             background: #000;
+            position: relative;
+            margin-top: 300px;
 
    }
 
@@ -978,6 +979,135 @@ body{scroll-behavior: smooth;
 
    }
 
+
+
+
+
+           /* footer animation code */
+
+
+    
+    .footer-animation { position: absolute;
+                        height: 300px;
+                        width: 100%;
+                        overflow: hidden;
+                        left: 0;
+                        top: -300px;
+
+    }
+
+  
+
+   .footer-animation-moto {  position: absolute;
+                             background: url(https://i.ibb.co/JCGfFJd/moto-net.gif);
+                             background-repeat: no-repeat;
+                             margin-left: -250px;
+                             height: 200px;
+                             width: 150px;
+                             left: 50%;
+                             bottom: 80px;
+                             /* transform-origin: 50% 80%; */
+                             animation: moto 5s linear infinite;
+                           
+
+   }
+
+   .footer-animation-car-fume { position: absolute;
+                                background: url(https://i.ibb.co/0Qhp4DN/voiture-fumee.gif);
+                                background-repeat: no-repeat;
+                                height: 114px;
+                                width: 206px;
+                                bottom: 10px;
+                                left: 50%;
+                                margin-left: 250px;
+                                animation: carfume 1s linear infinite;
+                               
+   }
+
+
+   .footer-animation-trees, .footer-animation-first-road, .footer-animation-second-road {                    
+                                position: absolute;
+                                inset: 0;
+                                background-repeat: repeat-x;
+                                background-position-y: 100% !important;
+                                animation: parralax 600s linear infinite;
+                              
+   }
+
+  .footer-animation-trees { background-image: url(https://i.ibb.co/nQM4PGJ/arbres.png);
+                            bottom: -60px;
+                            animation-duration: 1000s;
+
+  }
+
+  .footer-animation-first-road { background-image: url(https://i.ibb.co/RQhDWbk/premierplanv3.png);
+                                 animation-duration: 500s;
+  }
+
+  .footer-animation-second-road {  background-image: url(https://i.ibb.co/J3TjC4W/second-plan.png);
+                                   animation-duration: 600s;
+
+  }
+
+
+
+
+
+
+   @keyframes moto {
+    0% {
+      transform: translateY(0) rotate(0);
+    }
+    5% {
+      transform: translateY(0) rotate(-5deg);
+    }
+    25% {
+      transform: translateY(60px) rotate(-20deg);
+    }
+    49% {
+      transform: translateY(0) rotate(-1deg);
+    }
+    51% {
+      transform: translateY(0) rotate(1deg);
+    }
+    75% {
+      transform: translateY(60px) rotate(20deg);
+    }
+    80% {
+      transform: translateY(60px) rotate(0deg);
+    }
+    98% {
+      transform: translateY(0) rotate(0);
+    }
+  }
+
+
+  @keyframes carfume {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(0);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
+  }
+
+  @keyframes parralax {
+    0% {
+      background-position: 260px;
+    }
+    100% {
+      background-position: -10000vw;
+    }
+}
 
 
 
