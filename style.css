@@ -2,7 +2,10 @@
     padding: 0;
     overflow: hidden;
 }
-body{scroll-behavior: smooth;
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+   
 
 }
 /* -------------------------------------------------this is nav style--------------------------------------------------------- */
