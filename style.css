@@ -16,28 +16,29 @@ body{
                 justify-content: space-between;
                 align-items: center;
                 padding: 5px;
+               
              
     }
 
     #logo{ font-size: 28px;
-        margin-left: 20px;
+           margin-left: 20px;
     }
-    .logofirstletter{color: rgb(231, 235, 17);
-                     font-size: 30px;
+    .logofirstletter{ color: rgb(231, 235, 17);
+                      font-size: 30px;
 
     }
 
-    #navigation > ul {list-style-type: none;
-                    display: flex;
-                    margin-right: 10px;                    
+    #navigation >.nav-ul-par > ul {list-style-type: none;
+                                   display: flex;
+                                   margin-right: 10px;                    
     }
 
-    #navigation > ul > li {margin: 0;
-                        margin-left: -10px;
+    #navigation >.nav-ul-par > ul > li {margin: 0;
+                                        margin-left: -10px;
                        
     }
 
-    #navigation > ul > li > a { text-decoration: none;
+    #navigation >.nav-ul-par > ul > li > a { text-decoration: none;
                                 color: white;
                                 border-right: 1px solid white;
                                 margin-right: 10px;
@@ -52,7 +53,10 @@ body{
 
     #navigation > ul > li:hover >a {background-color: rgb(70, 11, 126);
     }
- 
+    
+    #navigation i {
+      display: none;
+    }
 
     /* ------------------------------------This is DropDown style---------------------------------------------- */
 

@@ -20,31 +20,34 @@
                <span class="logofirstletter"> TM</span> website Logo
             </div>
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Portfolio</a>
-                    <ul class="dropdown">
-                        <li><a href="#">Restaurant website</a></li>
-                        <li><a href="#">Shopping website</a></li>
-                        <li><a href="#">Consultant website</a></li>
-                        <li><a href="#">Personal website</a></li>
-                    </ul>              
-                </li>
-                <li><a href="#">Skills</a>
-                    <ul class="dropdown">
-                        <li><a href="#">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <li><a href="#">JAVASCRIPT</a></li>
-                        <li><a href="#">NEXT.JS</a></li>
-                        <li><a href="#">UI/UX Design</a></li>
-                    </ul> 
-                
-                </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-
-
+            <div class="nav-ul-par" id="navUlPar">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Restaurant website</a></li>
+                            <li><a href="#">Shopping website</a></li>
+                            <li><a href="#">Consultant website</a></li>
+                            <li><a href="#">Personal website</a></li>
+                        </ul>              
+                    </li>
+                    <li><a href="#">Skills</a>
+                        <ul class="dropdown">
+                            <li><a href="#">HTML</a></li>
+                            <li><a href="#">CSS</a></li>
+                            <li><a href="#">JAVASCRIPT</a></li>
+                            <li><a href="#">NEXT.JS</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                        </ul> 
+                    
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+           </div>
+        
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
 
 
         </nav>
@@ -632,6 +635,8 @@
 
 
    </footer>
+
+   <script src="script.js"></script>
 
 </body>
 </html>

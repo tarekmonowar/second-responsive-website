@@ -3,9 +3,52 @@
 
     *{
         max-width: 100%;
-        overflow-x: hidden  
+        overflow-x:hidden ;
 
     }
+
+    /* nav bar responsive */
+  
+    #navigation > .nav-ul-par {
+        position: absolute;
+        top:0;
+        right:-200px;
+        width: 200px;
+        height: 100vh;
+        text-align: left;
+        z-index: 2;
+        background-color:blueviolet;
+        border: 1px solid red;
+
+    }
+
+    #navigation > .nav-ul-par > ul{
+        flex-direction: column;
+        padding: 10px 0;
+        margin-right: 0;
+
+    }
+
+   #navigation > .nav-ul-par > ul > li {
+        margin: 20px 0;
+    }
+    #navigation > .nav-ul-par> ul > li > a {
+        border: none;
+        padding: 0 20px;
+       
+    }
+
+    #navigation i {
+        display: block;
+      }
+      #navigation i {
+        padding: 25px;
+        font-size: 22px;
+        cursor: pointer;
+      }
+
+
+    
     .icon {
         display: none;
     }
