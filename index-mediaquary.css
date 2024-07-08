@@ -1,13 +1,22 @@
+
+/* --------------for 700px device-------------------- */
+
 @media screen and (max-width:500px) {
     
 
     *{
         max-width: 100%;
-        overflow-x:hidden ;
+        overflow-x: hidden ;
 
     }
-
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
     /* nav bar responsive */
+
   
     #navigation > .nav-ul-par {
         position: absolute;
@@ -16,9 +25,10 @@
         width: 200px;
         height: 100vh;
         text-align: left;
-        z-index: 2;
+        z-index: 5;
         background-color:blueviolet;
         border: 1px solid red;
+        transition: 1s;
 
     }
 
@@ -48,28 +58,67 @@
       }
 
 
-    
+    /* this is icon rotate off */
     .icon {
         display: none;
     }
     
+   /* hero area responsive */
+
+   #heroarea > div > h4{
+    font-size: 15px;
+    width: 60%;
+   }
+   #heroarea > div > h1{
+    font-size: 30px;
+   }
+   .ideas {
+    font-size: 45px;
+   }
+
+   #heroarea > div > h5{
+    font-size: 20px;
+    width: 60%;
+   }
+
+
+/* first section-responsive */
 
     .first-section{
         width: 100%;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
-        justify-content: space-between;
+        gap: 25px;
     }
+    .first-section > div >i{font-size: 35px;
+                                                           
+    }
+    .abouttitle > h2::after{ content: "";
+        top: 83px;
+        right: 27px;
+        width: 200px;
+        height: 3px;
+        background-color:rgb(212, 157, 85);
+        position: absolute;
 
-
-    #aboutbody {
+   }
+   #aboutbody {
         width: 100%;
         flex-direction: column;
+       
     }
     .abouttext {
         text-align: center;
+       
     }
+
+    .abouttext > p{
+        padding: 0 40px;
+    }
+
+ /* why you choose responsive */
+
+
     .choosemain{
         width: 100%;
 
@@ -78,9 +127,14 @@
     .choosebody {
         grid-template-columns: 1fr;
         align-items: center;
-       
-       
+        margin: 20px 20px;    
     }
+    .choosebody > div > i{
+        font-size: 35px;
+    }
+
+    /* price section responsive */
+
 
     .price-section{
         width: 100%;
@@ -88,20 +142,57 @@
     .price-card-par {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 30px;
+        padding-bottom: 10px;
+    }
+    .price-card-par >div{
+        height: 510px;
     }
      
+
+    /* review-section-responsive */
+
     .review-section{
         width: 100%;
     }
     .review-card-par {
         grid-template-columns: 1fr;
     } 
+    .review-card-par > div{
+       justify-content: space-between;
+    }
+    .review-card-par > div > img{
+        width: 70px;
+       height: 70px;
+       margin-right: 20;
+    }
+    #span-username{
+        font-size: 20px;
+        
+    }
+    #span-useroffice{
+        margin-bottom: 0;
+    }
+
+
+    
+ /* parallax section responsive */
 
     .parallax-par{
         width: 100%;
         flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
     }
+    .parallax-par > div > i{
+        font-size: 35px;
+    }
+    .parallax-par > div > h2{
+        padding: 10px 0;
+    }
+
+/* blog -section-responsive */
+
 
     .blog-section{
         width: 100%;
@@ -110,8 +201,21 @@
     .blog-item-par{
         grid-template-columns: 1fr;
     }
+    .blog-itam >div > img{
+        width:100%;
+       
+    }
+    .blog-itam > div {
+        margin: auto;
+        width: 80%;
+    }
+
+/* contact-section-responsive */
 
 
+    .contact-section{
+        padding: 0 10px;
+    }
     .contact-form-par{
         width: 100%;
     }
@@ -119,4 +223,41 @@
     .contact-body{
         flex-direction: column;
     }
+    .body-title{
+        font-size: 24px;
+        padding-bottom: 30px;
+    }
+
+    .body-title:after { 
+        bottom: 0;      
+    }
+
+    .body-contact{
+        margin-top: 20px;
+    }
+    .contact-body-right{
+        margin-top: 20px;
+    }
+
+    /* -----footer section---responsive */
+
+    .footer-par > div{
+        width: 30%;
+    }
+    .footer-par > div > h3{
+        font-size: 1rem;
+    }
+
+    #footer-social-icon > a > i { font-size: 15px;
+                                
+    }
+    .footer-par > div > a {
+        font-size: 13px;
+        font-weight: normal;
+        padding: .50rem 0;
+    }
+
+    /* animation responsive */
+
+
 }

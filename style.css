@@ -2,7 +2,7 @@
     padding: 0;
     
 }
-body{
+body,html{
   scroll-behavior: smooth;
   overflow-x: hidden;
    
@@ -11,12 +11,17 @@ body{
 /* -------------------------------------------------this is nav style--------------------------------------------------------- */
 
     #navigation{background-image: linear-gradient(rgb(173, 104, 236),rgb(99, 6, 185));
-                display: flex;
-                color: white;
-                justify-content: space-between;
-                align-items: center;
-                padding: 5px;
-               
+                 display: flex;
+                 color: white;
+                 justify-content: space-between;
+                 align-items: center;
+                 padding: 5px;
+                 /* position: fixed;
+                 width: 100%;
+                 top: 0;
+                 z-index: 4;
+                 overflow-y: auto;
+                        */
              
     }
 
@@ -48,10 +53,10 @@ body{
                                 font-weight: bold;
     }
     
-    #navigation > ul > li:first-child > a {border-left: 1px solid white;
+    #navigation >.nav-ul-par > ul > li:first-child > a {border-left: 1px solid white;
     }
 
-    #navigation > ul > li:hover >a {background-color: rgb(70, 11, 126);
+    #navigation >.nav-ul-par > ul > li:hover >a {background-color: rgb(70, 11, 126);
     }
     
     #navigation i {
@@ -93,7 +98,7 @@ body{
         .dropdown > li:first-child{ border-top: 1px solid white;
         }
 
-        #navigation > ul > li:hover > .dropdown{
+        #navigation >.nav-ul-par > ul > li:hover > .dropdown{
             /* display: block; */
             opacity: 1;
             visibility: visible;
@@ -548,7 +553,7 @@ body{
 
         }
 
-        .review-card-par > div { display: flex;
+        .review-card-par > div {    display: flex;
                                     align-items: center;
                                     background-color:white;
                                     padding: 20px;
@@ -950,7 +955,7 @@ body{
    }
 
    .footer-par > div > h3 {  font-size: 1.6rem;
-                             margin-bottom: 20px;
+                             margin-bottom: 30px;
                              text-transform: uppercase;
 
    }
