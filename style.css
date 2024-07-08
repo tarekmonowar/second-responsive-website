@@ -1,5 +1,6 @@
-*{ margin: 0;
-padding: 0;
+*{  margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 body{scroll-behavior: smooth;
 
@@ -203,7 +204,7 @@ body{scroll-behavior: smooth;
          #section-1{background-color: rgba(250, 235, 215, 0.733);
         }
 
-        .first-section{margin:auto;
+        .first-section{ margin:auto;
                         padding: 100px 0;
                         display: flex;
                         justify-content: space-between;
@@ -211,7 +212,7 @@ body{scroll-behavior: smooth;
                         text-align: center;                       
         }
 
-        .first-section > div{ width: 300px;
+        .first-section > div{  width: 300px;
                                 padding:20px 10px;
                                 background-image:linear-gradient(rgba(216, 233, 216, 0.219) , rgba(143, 188, 143, 0.466)) ;
                                 border-radius: 20px;
@@ -265,7 +266,7 @@ body{scroll-behavior: smooth;
         }
 
         #aboutbody{ width: 1000px;
-                        margin: auto;
+                     margin: auto;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
@@ -534,7 +535,7 @@ body{scroll-behavior: smooth;
 
         }
 
-        .review-card-par {display: grid;
+        .review-card-par {  display: grid;
                             grid-template-columns: repeat(2, 1fr);
                             gap: 25px;
 
