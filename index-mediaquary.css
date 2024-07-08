@@ -1,0 +1,81 @@
+@media screen and (max-width:500px) {
+    
+
+    *{
+        max-width: 100%;
+        overflow-x: hidden;
+       
+        
+
+    }
+    .icon {
+        display: none;
+    }
+    
+
+    .first-section{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+
+    #aboutbody {
+        width: 100%;
+        flex-direction: column;
+    }
+    .abouttext {
+        text-align: center;
+    }
+    .choosemain{
+        width: 100%;
+
+    }
+
+    .choosebody {
+        grid-template-columns: 1fr;
+        align-items: center;
+       
+       
+    }
+
+    .price-section{
+        width: 100%;
+    }
+    .price-card-par {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+     
+    .review-section{
+        width: 100%;
+    }
+    .review-card-par {
+        grid-template-columns: 1fr;
+    } 
+
+    .parallax-par{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .blog-section{
+        width: 100%;
+        
+    }
+    .blog-item-par{
+        grid-template-columns: 1fr;
+    }
+
+
+    .contact-form-par{
+        width: 100%;
+    }
+
+    .contact-body{
+        flex-direction: column;
+    }
+}
