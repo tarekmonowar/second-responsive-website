@@ -23,19 +23,6 @@ This is my first responsive website project built using **HTML** and **CSS**. It
 The layout is fully responsive and adapts to different screen sizes, ensuring an optimal user experience on both desktop and mobile devices.
 
 ## Preview
-### Navigation and Header
-- Contains a search bar and navigation links for easy access to different sections.
-  
-### Main Section
-- Displays video thumbnails in a responsive grid layout, with video metadata such as views and upload dates.
-
-### Footer
-- Includes links to social media platforms and important informational content.
-
-## How to Use
-1. Clone or download this repository.
-2. Open `index.html` in any browser to view the website.
-
 ## Screenshots
 Here’s a preview of the website:
 
@@ -62,6 +49,11 @@ Here’s a preview of the website:
 
 - **Footer**  
   ![Screenshot of Footer](./readmeimage/Screenshot%20(31).png)
+
+
+## How to Use
+1. Clone or download this repository.
+2. Open `index.html` in any browser to view the website.
 
 ## Author
 Created by **Tarek Monowar**.
