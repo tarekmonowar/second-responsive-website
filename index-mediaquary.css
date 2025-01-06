@@ -259,5 +259,32 @@
 
     /* animation responsive */
 
+    .footer-animation {
+        height: 150px;
+        top: -150px;
+    }
 
+    .footer-animation-moto {
+        height: 100px;
+        width: 75px;
+        bottom: 40px;
+        margin-left: -125px;
+    }
+
+    .footer-animation-car-fume {
+        height: 57px;
+        width: 103px;
+        bottom: 5px;
+        margin-left: 125px;
+    }
+
+    .footer-animation-trees {
+        background-size: cover;
+        bottom: -30px;
+    }
+
+    .footer-animation-first-road,
+    .footer-animation-second-road {
+        background-size: cover;
+    }
 }
