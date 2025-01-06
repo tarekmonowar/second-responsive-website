@@ -1,5 +1,6 @@
-# second-responsive-website
-# Responsive Website - Tarek Monowar
+# Second Responsive Website
+
+## Responsive Website - Tarek Monowar
 
 This is my first responsive website project built using **HTML** and **CSS**. It is designed to provide a modern and user-friendly interface with responsiveness across various screen sizes.
 
@@ -36,7 +37,31 @@ The layout is fully responsive and adapts to different screen sizes, ensuring an
 2. Open `index.html` in any browser to view the website.
 
 ## Screenshots
-*(Add screenshots here if available)*
+Here’s a preview of the website:
+
+- **Homepage**  
+  ![Screenshot of Homepage](./readmeimage/Screenshot%20(24).png)
+
+- **About Page**  
+  ![Screenshot of About](./readmeimage/Screenshot%20(25).png)
+
+- **Card Section**  
+  ![Screenshot of Card](./readmeimage/Screenshot%20(26).png)
+
+- **Pricing Page**  
+  ![Screenshot of Pricing](./readmeimage/Screenshot%20(27).png)
+
+- **Comments Section**  
+  ![Screenshot of Comments](./readmeimage/Screenshot%20(28).png)
+
+- **Blogs Page**  
+  ![Screenshot of Blogs](./readmeimage/Screenshot%20(29).png)
+
+- **Contact Page**  
+  ![Screenshot of Contact](./readmeimage/Screenshot%20(30).png)
+
+- **Footer**  
+  ![Screenshot of Footer](./readmeimage/Screenshot%20(31).png)
 
 ## Author
 Created by **Tarek Monowar**.
